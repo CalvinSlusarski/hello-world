@@ -1,5 +1,12 @@
-class HelloWorld {
-	static void Main() {
-		System.Console.WriteLine("Hello World");
-	}
+using System;
+namespace CSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Hello World\n");
+            Console.Read();
+        }
+    }
 }
